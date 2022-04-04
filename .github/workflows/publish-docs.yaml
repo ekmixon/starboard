@@ -20,7 +20,7 @@ jobs:
           ref: ${{ github.event.inputs.ref }}
           fetch-depth: 0
           persist-credentials: true
-      - uses: actions/setup-python@f38219332975fe8f9c04cca981d674bf22aea1d3
+      - uses: actions/setup-python@9c644ca2ab8e57ea0a487b5ec2f8290740378bfd
         with:
           python-version: 3.x
       - run: |
